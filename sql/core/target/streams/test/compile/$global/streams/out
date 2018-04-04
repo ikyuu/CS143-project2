@@ -1,0 +1,37 @@
+[0m[[0mdebug[0m] [0mThe org.apache.spark.sql.execution.DiskPartition source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	diskArray.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) org.apache.spark.sql.execution.DiskPartition: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) org.apache.spark.sql.execution.DiskPartition.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /Users/Echo/Documents/CS143/Project/Project2/143pro2/sql/core/src/test/scala/org/apache/spark/sql/execution/DiskPartitionSuite.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /Users/Echo/Documents/CS143/Project/Project2/143pro2/sql/core/src/test/scala/org/apache/spark/sql/execution/DiskHashedRelationSuite.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mThe org.apache.spark.sql.execution.DiskHashedRelation source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	diskArray.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) org.apache.spark.sql.execution.DiskHashedRelation: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) org.apache.spark.sql.execution.DiskHashedRelation.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /Users/Echo/Documents/CS143/Project/Project2/143pro2/sql/core/src/test/scala/org/apache/spark/sql/execution/DiskHashedRelationSuite.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0mThe org.apache.spark.sql.execution.DiskHashedRelation$ source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	diskArray.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mFiles invalidated by inheriting from (external) org.apache.spark.sql.execution.DiskHashedRelation$: Set(); now invalidating by inheritance (internally).[0m
+[0m[[0mdebug[0m] [0mGetting direct dependencies of all sources transitively invalidated by inheritance.[0m
+[0m[[0mdebug[0m] [0mGetting sources that directly depend on (external) org.apache.spark.sql.execution.DiskHashedRelation$.[0m
+[0m[[0mdebug[0m] [0mNone of the modified names appears in /Users/Echo/Documents/CS143/Project/Project2/143pro2/sql/core/src/test/scala/org/apache/spark/sql/execution/DiskHashedRelationSuite.scala. This dependency is not being considered for invalidation.[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set()[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set(NamesChange(org.apache.spark.sql.execution.DiskPartition,ModifiedNames(regularNames = diskArray, implicitNames = )), NamesChange(org.apache.spark.sql.execution.DiskHashedRelation,ModifiedNames(regularNames = diskArray, implicitNames = )), NamesChange(org.apache.spark.sql.execution.DiskHashedRelation$,ModifiedNames(regularNames = diskArray, implicitNames = )))[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set()[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set()[0m

@@ -1,0 +1,9 @@
+#Successful Tests
+#Fri Dec 08 19:34:31 PST 2017
+org.apache.spark.sql.execution.RecursiveAggregationSuite=1512790471438
+org.apache.spark.sql.execution.InMemoryAggregateSuite=1512790431987
+org.apache.spark.sql.execution.CS143UtilsSuite=1512790386421
+org.apache.spark.sql.execution.DiskHashedRelationSuite=1512790384767
+org.apache.spark.sql.execution.DiskPartitionSuite=1512790384485
+org.apache.spark.sql.execution.SpillableAggregationSuite=1512788004157
+org.apache.spark.sql.execution.ProjectSuite=1512790395697

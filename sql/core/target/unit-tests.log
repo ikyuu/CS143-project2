@@ -1,0 +1,44 @@
+19:34:25.655 pool-1-thread-1-ScalaTest-running-RecursiveAggregationSuite INFO SparkContext: Running Spark version 1.3.0-SNAPSHOT
+19:34:25.718 pool-1-thread-1-ScalaTest-running-RecursiveAggregationSuite INFO SecurityManager: Changing view acls to: Weijia
+19:34:25.719 pool-1-thread-1-ScalaTest-running-RecursiveAggregationSuite INFO SecurityManager: Changing modify acls to: Weijia
+19:34:25.720 pool-1-thread-1-ScalaTest-running-RecursiveAggregationSuite INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: Set(Weijia); users with modify permissions: Set(Weijia)
+19:34:26.310 sparkDriver-akka.actor.default-dispatcher-2 INFO Slf4jLogger: Slf4jLogger started
+19:34:26.390 sparkDriver-akka.actor.default-dispatcher-2 INFO Remoting: Starting remoting
+19:34:26.775 sparkDriver-akka.actor.default-dispatcher-2 INFO Remoting: Remoting started; listening on addresses :[akka.tcp://sparkDriver@macbook-air:50542]
+19:34:26.794 pool-1-thread-1-ScalaTest-running-RecursiveAggregationSuite INFO Utils: Successfully started service 'sparkDriver' on port 50542.
+19:34:26.836 pool-1-thread-1-ScalaTest-running-RecursiveAggregationSuite INFO SparkEnv: Registering MapOutputTracker
+19:34:26.861 pool-1-thread-1-ScalaTest-running-RecursiveAggregationSuite INFO SparkEnv: Registering BlockManagerMaster
+19:34:26.898 pool-1-thread-1-ScalaTest-running-RecursiveAggregationSuite INFO DiskBlockManager: Created local directory at /var/folders/_1/3nwdsb_j2739xph9f026698h0000gn/T/spark-local-20171208193426-7a24
+19:34:26.907 pool-1-thread-1-ScalaTest-running-RecursiveAggregationSuite INFO MemoryStore: MemoryStore started with capacity 1613.0 MB
+19:34:27.221 pool-1-thread-1-ScalaTest-running-RecursiveAggregationSuite INFO HttpFileServer: HTTP File server directory is /var/folders/_1/3nwdsb_j2739xph9f026698h0000gn/T/spark-f16dee08-f167-4b2f-bd4d-95d05c9cf727
+19:34:27.234 pool-1-thread-1-ScalaTest-running-RecursiveAggregationSuite INFO HttpServer: Starting HTTP Server
+19:34:27.435 pool-1-thread-1-ScalaTest-running-RecursiveAggregationSuite INFO Server: jetty-8.1.14.v20131031
+19:34:27.470 pool-1-thread-1-ScalaTest-running-RecursiveAggregationSuite INFO AbstractConnector: Started SocketConnector@0.0.0.0:50543
+19:34:27.471 pool-1-thread-1-ScalaTest-running-RecursiveAggregationSuite INFO Utils: Successfully started service 'HTTP file server' on port 50543.
+19:34:27.707 sparkDriver-akka.actor.default-dispatcher-4 INFO AkkaUtils: Connecting to HeartbeatReceiver: akka.tcp://sparkDriver@macbook-air:50542/user/HeartbeatReceiver
+19:34:28.037 pool-1-thread-1-ScalaTest-running-RecursiveAggregationSuite INFO NettyBlockTransferService: Server created on 50544
+19:34:28.041 pool-1-thread-1-ScalaTest-running-RecursiveAggregationSuite INFO BlockManagerMaster: Trying to register BlockManager
+19:34:28.045 sparkDriver-akka.actor.default-dispatcher-4 INFO BlockManagerMasterActor: Registering block manager localhost:50544 with 1613.0 MB RAM, BlockManagerId(<driver>, localhost, 50544)
+19:34:28.050 pool-1-thread-1-ScalaTest-running-RecursiveAggregationSuite INFO BlockManagerMaster: Registered BlockManager
+19:34:29.015 pool-1-thread-1-ScalaTest-running-RecursiveAggregationSuite INFO SparkContext: Starting job: reduce at RecursiveAggregationSuite.scala:46
+19:34:29.048 sparkDriver-akka.actor.default-dispatcher-4 INFO DAGScheduler: Got job 0 (reduce at RecursiveAggregationSuite.scala:46) with 1 output partitions (allowLocal=false)
+19:34:29.049 sparkDriver-akka.actor.default-dispatcher-4 INFO DAGScheduler: Final stage: Stage 0(reduce at RecursiveAggregationSuite.scala:46)
+19:34:29.050 sparkDriver-akka.actor.default-dispatcher-4 INFO DAGScheduler: Parents of final stage: List()
+19:34:29.058 sparkDriver-akka.actor.default-dispatcher-4 INFO DAGScheduler: Missing parents: List()
+19:34:29.071 sparkDriver-akka.actor.default-dispatcher-4 INFO DAGScheduler: Submitting Stage 0 (MapPartitionsRDD[2] at map at RecursiveAggregationSuite.scala:46), which has no missing parents
+19:34:29.267 sparkDriver-akka.actor.default-dispatcher-4 INFO MemoryStore: ensureFreeSpace(5144) called with curMem=0, maxMem=1691332116
+19:34:29.271 sparkDriver-akka.actor.default-dispatcher-4 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 5.0 KB, free 1613.0 MB)
+19:34:29.291 sparkDriver-akka.actor.default-dispatcher-4 INFO MemoryStore: ensureFreeSpace(3414) called with curMem=5144, maxMem=1691332116
+19:34:29.291 sparkDriver-akka.actor.default-dispatcher-4 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 3.3 KB, free 1613.0 MB)
+19:34:29.295 sparkDriver-akka.actor.default-dispatcher-3 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on localhost:50544 (size: 3.3 KB, free: 1613.0 MB)
+19:34:29.296 sparkDriver-akka.actor.default-dispatcher-4 INFO BlockManagerMaster: Updated info of block broadcast_0_piece0
+19:34:29.299 sparkDriver-akka.actor.default-dispatcher-4 INFO SparkContext: Created broadcast 0 from broadcast at DAGScheduler.scala:839
+19:34:29.351 sparkDriver-akka.actor.default-dispatcher-4 INFO DAGScheduler: Submitting 1 missing tasks from Stage 0 (MapPartitionsRDD[2] at map at RecursiveAggregationSuite.scala:46)
+19:34:29.355 sparkDriver-akka.actor.default-dispatcher-4 INFO TaskSchedulerImpl: Adding task set 0.0 with 1 tasks
+19:34:29.409 sparkDriver-akka.actor.default-dispatcher-3 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0, localhost, PROCESS_LOCAL, 7665 bytes)
+19:34:29.424 Executor task launch worker-0 INFO Executor: Running task 0.0 in stage 0.0 (TID 0)
+19:34:31.347 Executor task launch worker-0 INFO Executor: Finished task 0.0 in stage 0.0 (TID 0). 727 bytes result sent to driver
+19:34:31.356 task-result-getter-0 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 1961 ms on localhost (1/1)
+19:34:31.357 task-result-getter-0 INFO TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool 
+19:34:31.358 sparkDriver-akka.actor.default-dispatcher-3 INFO DAGScheduler: Stage 0 (reduce at RecursiveAggregationSuite.scala:46) finished in 1.987 s
+19:34:31.373 pool-1-thread-1-ScalaTest-running-RecursiveAggregationSuite INFO DAGScheduler: Job 0 finished: reduce at RecursiveAggregationSuite.scala:46, took 2.357807 s
